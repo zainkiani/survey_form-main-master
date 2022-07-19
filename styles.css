@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:poppins,sans-serif;
+    font-size: 18px;
+    background-image:linear-gradient(rgba(27, 50, 33, 0.8),rgba(27, 50, 33, 0.1)) ,url(/pexels-pixabay-265087.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 2rem;
+    background-color:rgba(27, 50, 33, 0.8); 
+    
+}
+
+#title{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+#description{
+    text-align: center;
+    color: #ffffff;
+}
+
+#surveyform{
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: rgba(27, 50, 33, 0.8);
+    padding: 2rem;
+    color: #ffffff;
+    min-width: 300px;
+    
+    
+}
+input,select,textarea{
+    display: block;
+    width: 100%;
+    padding: 0.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: -0.3rem;
+    border-radius:2px;
+    border:white solid;
+}
+.inline{
+   width: unset;
+   display: inline;
+    
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+#submit{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 18px;
+    background-color: forestgreen;
+    border: solid white;
+    color: white;
+    border-radius: 2px;
+    margin-bottom: 2rem ;
+}
+#submit:hover{
+    background-color: white;
+    color: forestgreen;
+}
